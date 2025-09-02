@@ -1,53 +1,76 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>WHITE CAR</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>WHITE CAR</h1><div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the first item’s accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item’s accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It’s also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-    <h2>Introduccion</h2>
-White Car ofrece transporte privado seguro, cómodo y puntual, con conductores profesionales y vehículos modernos
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Inicio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="css/estilos.css">
+  </head>
+<body>
+
+<!-- Franja superior -->
+<nav class="navbar navbar-expand-lg navbar-white principal">
+  <div class="container">
+    <a class="navbar-brand" href="#">White Car</a>
+    <div class="collapse navbar-collapse">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Reseñas</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Objetivos</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Servicios</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="bg-light text-center p-5">
+  <h1 class="display-4">Bienvenido a White Car</h1>
+  <img src="Img/logo.png" alt="" class="imagenPequena" width="150" height="70">
+  <p class="lead">La seguridad de tu empresa a cuatro ruedas</p>
+  <a href="#servicios" class="btn btn-primary btn-lg">Conocer más</a>
+</section>
+
+<!-- Servicios -->
+<section id="servicios" class="container py-5">
+  <h2 class="text-center mb-4">Acerca de nosotros</h2>
+
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card p-3 shadow-sm">
+        <h5>Mision</h5>
+        <p>Ofrecer un transporte de buena calidad y sostenible hacia el cliente,
+satisfaciendo sus necesidades y requisitos que se adquieran en el
+producto establecido.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-3 shadow-sm">
+        <h5>Vision</h5>
+        <p>Ser reconocidos a nivel nacional como la primera marca de autos
+más conable y sostenible en el país, ofreciendo de forma autentica
+y creativa la innovación, transparencia y conanza en el cliente..</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-3 shadow-sm">
+        <h5>En que nos destacamos</h5>
+        <p>Somos una empresa enfocada en prestrar un servicio de transporte seguro, confiable y eficaz en diferentes sectores del comercio</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark  text-light text-center py-3">
+  <p>&copy; 2025 White Car| Todos los derechos reservados</p>
+  <p1> 3144241908
+</p1>
+</p2>
+  <nav class="navbar">
+</footer>
+
+</body>
 </html>
