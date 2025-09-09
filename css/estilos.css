@@ -1,13 +1,17 @@
-#franjaroja{
-    /*color de fondo*/
-    background-color:rgb(175, 0, 0);
-    /*alto*/
-    height: 658px;
-    /*ancho*/
-    width: 30%;
-    /*flota*/
-    float:left;
+#franjaroja {
+  /*color de fondo*/
+  background-color: rgb(175, 0, 0);
+  /*alto*/
+  height: 658px;
+  /*ancho*/
+  width: 30%;
+  /*flota*/
+  float: left;
 }
 .principal {
   background-color: #b03636; /* Rojo elegante */
+}
+.textoPrincipal {
+  color: #b03636;
+  text-decoration: underline;
 }
